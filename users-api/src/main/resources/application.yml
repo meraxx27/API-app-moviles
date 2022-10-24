@@ -1,0 +1,14 @@
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://b7e3a09e061e12:2f9d3cc1@us-cdbr-east-06.cleardb.net/heroku_d02c1597b242410?reconnect=true
+    username: b7e3a09e061e12
+    password: 2f9d3cc1
